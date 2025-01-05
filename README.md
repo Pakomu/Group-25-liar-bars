@@ -96,6 +96,7 @@ iii.	Ctrl+C：當有玩家按下Ctrl+C，Server會直接重新發牌開始新一
 
 參考文獻與附錄：
 騙子酒吧steam連結： https：//store.steampowered.com/app/3097560/Liars_Bar/
-	github code:  https://github.com/Pakomu/Group-25-liar-bars
+
+github code:  https://github.com/Pakomu/Group-25-liar-bars
 
 
