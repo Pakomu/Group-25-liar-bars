@@ -18,16 +18,27 @@ Client：
 2.	Server與Client程式互動規則與資料傳輸格式：
 Server和Client之間主要透過傳送特定格式的字串訊息來交換遊戲資訊，格式為[flag] [information]。flag為0~10每個分別代表不同的訊息(可見下表)，而後面則根據flag是甚麼來提供必要的資訊。如通知遊戲資訊的字串為(1, player index, is death, death count, death count down, is connected, cards)，通過讀取字串便可以處理遊戲所需的資訊。
 flag	meaning
+
 0	Initialize a new game
+
 1	Inform player’s information
+
 2	Inform current turn
+
 3	Inform what the player just put
+
 4	Inform doubt
+
 5	Inform death
+
 6	Inform win
+
 7	Inform quit
+
 8	Inform the last player own cards
+
 9	Inform the game start
+
 10	Pass the message to post
 
 以下為遊戲進行流程圖： 
